@@ -30,8 +30,8 @@ Projeto desenvolvido para a atividade avaliativa de Git e GitHub.
 
 ## Repositório
 
-https://github.com/<SEU-USUARIO>/atividade12-avaliativa
+https://github.com/warc089/atividade12-avaliativa
 
 ## Site publicado
 
-https://<SEU-USUARIO>.github.io/atividade12-avaliativa/
+https://warc089.github.io/atividade12-avaliativa/
