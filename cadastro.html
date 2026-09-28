@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+</head>
+<body class="app-page">
+    <header>
+        <h1>Cadastro de usuário</h1>
+
+        <nav>
+            <a href="dashboard.html">Voltar ao painel</a>
+            <a href="index.html">Sair</a>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="nova-senha">Senha:</label>
+            <input type="password" id="nova-senha" name="senha" required>
+
+            <label for="confirmar-senha">Confirmar senha:</label>
+            <input
+                type="password"
+                id="confirmar-senha"
+                name="confirmar-senha"
+                required
+            >
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+</body>
+</html>

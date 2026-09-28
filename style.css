@@ -44,3 +44,47 @@ button:hover {
     color: #ff5252;
     font-weight: bold;
 }
+
+.app-page {
+    display: block;
+    box-sizing: border-box;
+    min-height: 100vh;
+    height: auto;
+    padding: 30px;
+}
+
+.app-page header,
+.app-page main {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.app-page nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.app-page a {
+    color: #03dac6;
+    text-decoration: none;
+}
+
+.app-page a:hover {
+    text-decoration: underline;
+}
+
+.app-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app-page input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
